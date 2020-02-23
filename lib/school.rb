@@ -23,7 +23,6 @@ class School
     self.roster.each do |grade, students|
       students.sort
     end
-    return roster
   end
   
 end
